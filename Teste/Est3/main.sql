@@ -21,7 +21,7 @@ CREATE TABLE Operadoras (
     Data_Registro_ANS DATE,
     PRIMARY KEY (Registro_ANS)
 );
-LOAD DATA INFILE 'C:\Users\administrativo\Desktop\The Mountain\Teste\Est3\Relatorio_cadop (1).csv'
+LOAD DATA LOCAL INFILE 'C:\Users\administrativo\Desktop\The Mountain\Teste\Est3\Relatorio_cadop (1).csv'
 INTO TABLE Operadoras
 FIELDS TERMINATED BY ';'
 ENCLOSED BY '"'
